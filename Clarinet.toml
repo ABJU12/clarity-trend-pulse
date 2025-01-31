@@ -4,6 +4,10 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.rewards]
+path = "contracts/rewards.clar"
+depends_on = []
+
 [contracts.trend-pulse]
 path = "contracts/trend-pulse.clar"
 depends_on = []
